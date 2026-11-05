@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Freelo",
+    "slug": "freelo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.blepgames.freelo",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "predictiveBackGestureEnabled": false,
+      "package": "org.blepgames.freelo"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-sharing",
+      "expo-video"
+    ]
+  }
+}
